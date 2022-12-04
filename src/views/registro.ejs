@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  <link href="/css/registro.css" rel="stylesheet" type="text/css">
+  <title>Document</title>
+</head>
+<body>
+
+
+  <div class="p-3 mb-2 bg-dark text-black">
+  <div class="container">
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+
+      <form  method="post" action="/api/registro/usuario">     
+           
+            <div class="form-group">
+             <label for="name" class="form-label-md-2">Nome</label>
+             <input type="text" class="form-control" placeholder="Nome" name="nome">
+            </div>
+            <div class="form-group">
+              <label for="name" class="form-label-md-2">Login</label>
+              <input type="text" class="form-control" placeholder="Nome" name="login">
+             </div>
+             <div class="form-group">
+              <label for="name" class="form-label-md-2">Senha</label>
+              <input type="password" class="form-control" placeholder="Nome" name="senha">
+             </div>
+
+            <div class="form-group">
+              <label for="endereço" class ="form-label">Endereço</label>
+              <input type="text" class="form-control" placeholder="Rua Exemplo N 00 APT000" name="endereco">
+            </div>
+
+            <div class="row">
+            <div class="form-group col-md-6">
+              <label for="bairro" class ="form-label">Bairro</label>
+              <input type="text" class="form-control" placeholder="Bairro" name="bairro">
+            </div>
+
+            <div class="form-group col-md-4">
+              <label for="cidade" class ="form-label">Cidade</label>
+              <input type="text" class="form-control" placeholder="Cidade" name="cidade">
+            </div>
+
+            <div class="form-group col-md-2">
+              <label for="cep" class ="form-label">CEP</label>
+              <input type="text" class="form-control" placeholder="xxxxx-xxx" name="cep">
+            </div>
+            </div>
+
+            <div class="row">
+
+            <div class="form-group col-md-3">
+              <label for="telefone" class ="form-label">Telefone</label>
+              <input type="text" class="form-control" placeholder="(xx)xxxxx-xxxx" name="telefone">
+            </div>
+
+            <div class="form-group col-md-3">
+              <label for="celular" class ="form-label">Celular</label>
+              <input type="text" class="form-control" placeholder="(xx)xxxxx-xxxx" name="celular">
+            </div>
+
+            <div class="form-group col-md-2">
+              <label for="data-nascimento" class ="form-label">Datadenascimento</label>
+              <input type="text" class="form-control" placeholder="xx/xx/xxxx" name="datanascimento">
+            </div>
+
+            <div class="form-group col-md-4">
+              <label for="estado-civil" class="form-label">Estado Civil</label>
+              <select class ="form-select" name="estadocivil">Estado Civil</label>
+              <option selected>Selecione a sua opção</option>
+              <option value="Casado(a)">Casado(a)</option>
+              <option value="Solteiro(a)">Solteiro(a)</option>
+              <option value="Divorciado(a)">Divorciado(a)</option>
+              <option value="Viuvo(a)">Viuvo(a)</option>
+              </select> 
+            </div>
+            </div>
+
+            <div class="row">
+            <div class="form-group col-md-4">
+              <label for="email" class ="form-label">Email</label>
+              <input type="text" class="form-control" placeholder="email@email.com" name="email">
+            </div>
+
+            <div class="form-group col-md-4">
+              <label for="linkedin" class ="form-label">Linkedin</label>
+              <input type="text" class="form-control" placeholder="linkedin.com/" name="linkedin">
+            </div>
+            <div class="form-group col-md-4">
+              <label for="github" class ="form-label">Github</label>
+              <input type="text" class="form-control" placeholder="github.com/" name="github">
+            </div>
+          </div>
+
+          <div class="row">
+
+            <div class="form-group col-md-4">
+              <label for="rg" class ="form-label">RG</label>
+              <input type="text" class="form-control" placeholder="xx.xxx.xxx-x" name="rg">
+            </div>
+
+            <div class="form-group col-md-4">
+              <label for="cpf" class ="form-label">CPF</label>
+              <input type="text" class="form-control" placeholder="xxx.xxx.xxxxx-xxx" name="cpf">
+            </div>
+
+            <div class="form-group col-md-4">
+              <label for="genero" class="form-label">Genero</label>
+              <select class ="form-select" name="genero">Genero</label>
+              <option selected>Selecione a sua opção</option>
+              <option value="Homem">Homem</option>
+              <option value="Mulher">Mulher</option>
+              <option value="Transexual">Transexual</option>
+              <option value="Não Binario">Não Binario</option>
+              <option value="Prefiro Não Responder">Prefiro Não Responder</option>
+              </select> 
+            </div>
+            <button class="btn btn-primary  " type="submit">Salvar</button>
+      </form> 
+  </div>
+</div>
+<div style="text-align:right; width:100%; padding:0;">
+<a class="btn btn-primary" href="javascript: history.go(-1)" role="button">Voltar</a>
+</div>
+</body>
+</html>
