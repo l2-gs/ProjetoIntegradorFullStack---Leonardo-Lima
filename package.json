@@ -1,0 +1,26 @@
+{
+  "name": "projetointegradorfullstack---leonardo-lima",
+  "version": "1.0.0",
+  "description": "### <center>HEY, PRONTOS PARA O DESAFIO FINAL?</center>",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/l2-gs/ProjetoIntegradorFullStack---Leonardo-Lima.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/l2-gs/ProjetoIntegradorFullStack---Leonardo-Lima/issues"
+  },
+  "homepage": "https://github.com/l2-gs/ProjetoIntegradorFullStack---Leonardo-Lima#readme",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "bootstrap": "^5.2.2",
+    "ejs": "^3.1.8",
+    "express": "^4.18.1",
+    "mongoose": "^6.6.1"
+  }
+}

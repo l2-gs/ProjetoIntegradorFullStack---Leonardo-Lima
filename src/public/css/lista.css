@@ -1,0 +1,35 @@
+html {
+    height: 100%;
+  }
+  body {
+    margin:0;
+    padding:0;
+    font-family: sans-serif;
+    background: #808080;
+  }
+
+  .container {
+    margin: 30px auto;
+    background: white;
+    /* border: 2px red solid; */
+    border-radius: 10px;
+    width: 900px;
+    height: 850px;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+.table {
+
+    padding: 50px;
+    background: #34495E;
+    color: #fff;
+    border-radius: .4em;
+    overflow: hidden;
+    
+
+  }
+
+  th {
+    background-color: #04AA6D;
+    color: white;
+  }
