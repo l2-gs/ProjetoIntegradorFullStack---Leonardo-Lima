@@ -1,5 +1,5 @@
 const mongoose = require('mongoose')
-mongoose.connect("mongodb+srv://l2gs:334631@cadastro.rgyb5kb.mongodb.net/cadastro", { useNewUrlParser: true })
+mongoose.connect("mongodb+srv://l2gs:334631@cadastro.zo2rrp4.mongodb.net/cadastro", { useNewUrlParser: true })
 
 const express = require('express');
 const app = express()

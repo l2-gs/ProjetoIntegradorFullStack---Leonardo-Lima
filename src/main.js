@@ -15,7 +15,7 @@ app.set('view engine','ejs')
 
 
 const mongoose = require('mongoose')
-mongoose.connect("mongodb+srv://l2gs:334631@cadastro.rgyb5kb.mongodb.net/cadastro")
+mongoose.connect("mongodb+srv://l2gs:334631@cadastro.zo2rrp4.mongodb.net/cadastro")
 
 const rota = require('../src/rotas/rotas')
 
